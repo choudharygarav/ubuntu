@@ -11,20 +11,20 @@ function PrimeCheck(candidate){
     
     var isPrime = true;
     var i = 2;
-    while (i<candidate){
-        if (candidate%i === 0){
+ (i<candidate){
+        (candidate%i === 0){
             i = candidate;
             isPrime = false;
         }
     i++;    
     }
-    return isPrime;
+     isPrime;
 }
 
 var numPrimes = prompt("How many primes?");
 var j = 2;
-while (primeArray.length<numPrimes){
-    if (PrimeCheck(j)){
+(primeArray.length<numPrimes){
+  (PrimeCheck(j)){
         primeArray.push(j);
     }
     j++;
@@ -33,15 +33,15 @@ while (primeArray.length<numPrimes){
 
 console.log(primeArray);
  isPrime = true;
-  for(var i = 2; i < candidate && isPrime; i++){
-    if(candidate%i === 0){
+(var i = 2; i < candidate && isPrime; i++){
+   (candidate%i === 0){
       isPrime = false;
-    } else {
+    } {
       isPrime = true;
     }
   }
-  if(isPrime){
+  (isPrime){
     primeArray.push(candidate);
   }
-  return primeArray;
+primeArray;
 }
